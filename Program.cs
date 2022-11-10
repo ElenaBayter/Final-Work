@@ -23,3 +23,9 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+Console.WriteLine($"Primer array: ");
+ArrayWithCondition(PrimerArray, NewArray);
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("New array with condition:");
+PrintArray(NewArray);
